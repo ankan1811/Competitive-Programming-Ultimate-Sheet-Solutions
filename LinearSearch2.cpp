@@ -10,7 +10,7 @@ int main() {
   for(int i = 1; i <= n; i++) {
     int x;
     scanf("%d", &x);
-    if(x >= 0) sum += 1LL * x, cnt++;
+    if(x >= 0) sum += 1LL * x, cnt++;//We can take the full set as a subset also.So whenever a positive number just take it to maximize sum.
     mx = max(mx, x);
   }
   if(cnt) cout << sum << " " << cnt << endl;
