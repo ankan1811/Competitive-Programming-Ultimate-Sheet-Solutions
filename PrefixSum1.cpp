@@ -11,6 +11,6 @@ int main() {
 	cin>>q;
 	for(int i=0; i<q; i++){
         cin>>x>>y;
-        cout<<sum[y+1]-sum[x]<<endl;//both x,y included
+        cout<<sum[y+1]-sum[x]<<endl;//both x,y included but x starts from 0
 	}
 }
