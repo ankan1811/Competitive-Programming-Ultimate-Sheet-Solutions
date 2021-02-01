@@ -60,7 +60,7 @@ int main(){
 	cin>>N;
 	while (N--) {
 		cin>>A>>B;
-		cout<<(dPrime[B] - dPrime[A - 1])<<endl;//check t1 excluded and t2 included
+		cout<<(dPrime[B] - dPrime[A - 1])<<endl;//both t1 and t2 included but t1 starts from 1
 	}
 	return 0;
 }
